@@ -20,3 +20,10 @@ function draw() {
     });
   });
 }
+
+function shake() {
+  const dots = document.querySelectorAll('.grid-dot');
+  dots.forEach((dot) => dot.classList.remove('draw'));
+}
+
+document.getElementById('shakeBtn').onclick = shake;
