@@ -46,11 +46,18 @@
   background-color: black;
 }
 
+@font-face {
+  font-family: karamell;
+  src: local('karamell');
+  src: url('karamell.ttf');
+}
+
 #logo {
   position: fixed;
   left: 350px;
   color: #d5a740;
   font-family: karamell;
+  src: local();
   font-size: 80px;
   z-index: 4;
 }
