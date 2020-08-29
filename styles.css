@@ -38,18 +38,18 @@
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+@font-face {
+  font-family: karamell;
+  src: local('karamell');
+  src: url('https://ufile.io/y9wystjg');
+}
+
 .grid-dot {
   margin: 0;
   padding: 0;
 }
 .draw {
   background-color: black;
-}
-
-@font-face {
-  font-family: karamell;
-  src: local('karamell');
-  src: url('https://ufile.io/y9wystjg');
 }
 
 #logo {
